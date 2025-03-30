@@ -1,18 +1,18 @@
-# AI Market Research Agent 🤖📊
+# AI Market Research Agent
 
 <div align="center">
   <h2>
     <a href="https://market-research-ai-agent-ati56lnmh-gsebs-projects.vercel.app/">
-      🚀 Try the Live Application 🚀
+      Try the Live Application
     </a>
   </h2>
   <p><i>Experience AI-powered market research and competitor analysis in real-time!</i></p>
   <br/>
 </div>
 
-An intelligent market research assistant powered by AI that helps analyze competitors, market trends, and provides valuable insights for business decision-making.
+A market research assistant powered by AI that helps analyze competitors, market trends, and provides valuable insights for business decision-making.
 
-## 📸 Application Overview
+##  Application Overview
 
 ### Main Interface
 ![AI Market Research Agent Main Interface](./screenshots/AI-AGENT.png)
@@ -26,7 +26,7 @@ An intelligent market research assistant powered by AI that helps analyze compet
 ![Competitor Analysis Dashboard](./screenshots/Competitor-Analysis.png)
 *Detailed competitor analysis with strengths, weaknesses, and market positioning.*
 
-## 🎯 Features
+## Features
 
 - **Real-time Market Data Analysis**: Fetch and analyze current market data using Alpha Vantage API
 - **Competitor Analysis**: Deep dive into competitor strengths, weaknesses, and market positioning
@@ -34,7 +34,7 @@ An intelligent market research assistant powered by AI that helps analyze compet
 - **Interactive Chat Interface**: Natural language interaction with the AI agent
 - **Beautiful UI**: Modern, responsive design with Tailwind CSS
 
-## 🏗️ Architecture
+##  Architecture
 
 The application is built with a modern tech stack:
 
@@ -54,7 +54,7 @@ The application is built with a modern tech stack:
     └── OpenAI GPT Models
 ```
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Frontend**:
   - Next.js 14
@@ -74,7 +74,7 @@ The application is built with a modern tech stack:
   - Environment Variable Management
   - Docker Support
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repository:
 ```bash
@@ -102,7 +102,7 @@ npm run dev
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🏛️ Project Structure
+## Project Structure
 
 ```
 ├── app/                  # Next.js app directory
@@ -115,7 +115,7 @@ npm run dev
 └── public/             # Static assets
 ```
 
-## 🧠 AI Implementation
+## AI Implementation
 
 The project uses LangChain to orchestrate AI interactions:
 
@@ -134,14 +134,14 @@ The project uses LangChain to orchestrate AI interactions:
    - Data-driven recommendations
    - Clear explanations
 
-## 🔒 Security Features
+## Security Features
 
 - Secure environment variable handling
 - API key protection
 - Rate limiting
 - Error handling
 
-## 🎨 UI/UX Features
+## UI/UX Features
 
 - Responsive design
 - Real-time updates
@@ -150,7 +150,7 @@ The project uses LangChain to orchestrate AI interactions:
 - Loading states
 - Error handling
 
-## 📈 Market Data Integration
+## Market Data Integration
 
 The application integrates with Alpha Vantage API to provide:
 - Real-time stock quotes
@@ -158,17 +158,14 @@ The application integrates with Alpha Vantage API to provide:
 - Market news
 - Technical indicators
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - OpenAI for GPT models
 - Alpha Vantage for market data
 - Vercel for hosting
-- Next.js team for the amazing framework 
+- Next.js for framework 
