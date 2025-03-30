@@ -163,7 +163,7 @@ The application integrates with Alpha Vantage API to provide:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+## Sources
 
 - OpenAI for GPT models
 - Alpha Vantage for market data
