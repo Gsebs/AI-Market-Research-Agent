@@ -6,7 +6,7 @@
       Try the Live Application
     </a>
   </h2>
-  <p><i>Experience AI-powered market research and competitor analysis in real-time!</i></p>
+  <p><i> AI-powered market research and competitor analysis in real-time!</i></p>
   <br/>
 </div>
 
