@@ -14,7 +14,14 @@ export async function POST(request: Request) {
       );
     }
 
-    const analysis = await agent.analyzeCompetitors(competitors);
+    if (!industry || typeof industry !== 'string') {
+      return NextResponse.json(
+        { error: 'Industry is required and must be a string' },
+        { status: 400 }
+      );
+    }
+
+    const analysis = await agent.analyzeCompetitors(industry, competitors);
     
     return NextResponse.json({ analysis });
   } catch (error) {
